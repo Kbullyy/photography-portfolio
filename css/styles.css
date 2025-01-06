@@ -53,25 +53,22 @@
     color: #d1b28b; /* Beige hover effect */
   }
   
-  /* Hero Section with Slideshow */
+  /* Hero Section */
   .hero {
-    position: relative;
-    max-width: 100%;
-    height: 500px;
     background-color: #d1b28b; /* Beige background */
     color: #fff; /* White text */
     text-align: center;
-    padding-top: 150px;
+    padding: 50px 20px;
   }
 
   .hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
 
   .hero p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 30px;
   }
   
@@ -91,28 +88,6 @@
     object-fit: cover;
   }
   
-  /* Slideshow Navigation */
-  .prev, .next {
-    position: absolute;
-    top: 50%;
-    padding: 16px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    user-select: none;
-    z-index: 10;
-  }
-  
-  .prev {
-    left: 0;
-    transform: translateY(-50%);
-  }
-  
-  .next {
-    right: 0;
-    transform: translateY(-50%);
-  }
   
   /* Contact Section */
   .contact {
@@ -248,9 +223,21 @@
     }
   
     /* Hero Section */
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
     .hero {
-      padding-top: 100px; /* Adjust padding for smaller screens */
-      height: 350px;
+      padding: 30px 15px; /* Adjust padding for smaller screens */
+    }
+
+    .featured-work {
+        margin-top: 20px;
     }
   
     /* About Section */
